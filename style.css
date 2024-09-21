@@ -1,0 +1,134 @@
+body{
+    background-color: #edefee;
+    font-family: 'Markazi Text' , serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+    margin-left: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-left: 1rem;
+    
+}
+
+header > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+}
+
+nav{
+    background-color:#333333;
+    height: 4rem;
+    border-radius: 1rem;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    
+    
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+}
+
+li a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+section{
+    display: flex;
+}
+
+#header{
+    background-color: #333333;
+    background-image: url(/yonFVRknQEiJxVUZJzBIkA_c0e0039d4ddd4a33bc1c0854ba0361e1_Little-Lemon-logos/pasta-with-simple-tomato-sauce-21073-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+#header > p{
+    margin-left: 2rem;
+    color: white;
+    width: 65%;
+}
+article {
+    flex: 1;
+    background-color:  #f4e5d6;
+}
+
+#section2 > article {
+    background-color:  #f4e5d6;
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+#section2 > article:last-child {
+    margin-right: 0rem;
+}
+
+#section2  p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#section2 img{
+    margin-left: 1rem;
+    width: 93%;
+   height: 15rem;
+}
+
+#section2 a{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+#section2 ul{
+    list-style: none;
+    margin-left: 3rem;
+}
+footer  img {
+    width: 3rem;
+    
+} 
+footer {
+    display: flex;
+    margin-top: 3rem;
+}
+
+footer div{
+    flex: 1;
+    margin-left: 2rem;
+}
+
+
+
+footer p{
+    text-align: right;
+}
+
+footer hr{
+    height: 1px;
+    background-color: black;
+}
